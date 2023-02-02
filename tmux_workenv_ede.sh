@@ -3,6 +3,10 @@
 # Session name (to avoid repeated occurences)
 S_NAME="Dev"
 
+if [[ $(tmux ls | grep $S_NAME | wc -l) -gt 0 ]]; then
+	tmux -2 attach-session -t "$S_NAME"
+fi
+
 # Name for first window name
 W_NAME="dockerd"
 

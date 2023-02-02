@@ -26,3 +26,5 @@
 .zsh_history
 downloads
 workspace
+.dbus
+.subversion
