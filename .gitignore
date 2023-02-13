@@ -28,3 +28,4 @@ downloads
 workspace
 .dbus
 .subversion
+.docker
