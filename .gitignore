@@ -29,3 +29,4 @@ workspace
 .dbus
 .subversion
 .docker
+.dotnet
