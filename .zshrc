@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias diff="colordiff -y --width=$COLUMNS"
 
 eval "$(starship init zsh)"
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
