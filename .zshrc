@@ -72,6 +72,9 @@ ZSH_THEME=""
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git tmux zsh-cargo-completion)
 
+# Configure zshell to create crash dumps in a custom folder
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
