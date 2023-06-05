@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias diff="colordiff -y --width=$COLUMNS"
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
 eval "$(starship init zsh)"
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
